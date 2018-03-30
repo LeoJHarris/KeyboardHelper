@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;netstandard2.0;MonoAndroid80;Xamarin.iOS10;uap10.0.15063;Xamarin.TVOS10;Xamarin.WatchOS10;Xamarin.Mac20;</TargetFrameworks>
-    <AssemblyName>Plugin.KeyboardHelper</AssemblyName>
-    <RootNamespace>Plugin.KeyboardHelper</RootNamespace>
-    <PackageId>Plugin.KeyboardHelper</PackageId>
+    <AssemblyName>LeoJHarris.XForms.Plugin.KeyboardHelper</AssemblyName>
+    <RootNamespace>LeoJHarris.XForms.Plugin.KeyboardHelper</RootNamespace>
+    <PackageId>LeoJHarris.XForms.Plugin.KeyboardHelper</PackageId>
     
-    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <Product>LeoJHarris.XForms.Plugin.KeyboardHelper</Product>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
     <Version>1.0.0.0</Version>
@@ -21,19 +21,19 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     
     <!--TODO: Fill these in-->
-    <PackageLicenseUrl>LINK TO LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>LINK TO PROJECT</PackageProjectUrl>
-    <RepositoryUrl>LINK TO PROJECT</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/LeoJHarris/KeyboardHelper/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/LeoJHarris/KeyboardHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LeoJHarris/KeyboardHelper</RepositoryUrl>
     <PackageReleaseNotes>RELEASE NOTES</PackageReleaseNotes>
-    <PackageIconUrl>ICON URL</PackageIconUrl>
+    <PackageIconUrl>https://github.com/LeoJHarris/KeyboardHelper/blob/master/keyboard.png</PackageIconUrl>
     <PackageTags>xamarin, windows, ios, android, xamarin.forms, plugin, KeyboardHelper</PackageTags>
     
     <Title>KeyboardHelper Plugin for Xamarin and Windows</Title>
     <Summary>Summary of nuget</Summary>
-    <Description>Plugin Description</Description>
+    <Description>Simple keyboard helper to show and dismiss the keyboard</Description>
 
     <Owners>YOU</Owners>
-    <Authors>YOU</Authors>
+    <Authors>Leonard Harris</Authors>
     <Copyright>Copyright 2018</Copyright>
   </PropertyGroup>
 
